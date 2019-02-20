@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Portfolio v3",
     description: "Personal WebSite",
-    author: "@amanhimself",
-    siteUrl: `http://www.amanhimself.me`
+    // author: "@amanhimself",
+    // siteUrl: `http://www.amanhimself.me`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,11 +11,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Aman Mittal Portfolio",
-        short_name: "Aman Mittal",
+        name: "Nathan's Portfolio",
+        short_name: "Nathan telford",
         start_url: "/",
-        background_color: "#69359c",
-        theme_color: "#69359c",
+        background_color: "#497494",
+        theme_color: "#497494",
         display: "minimal-ui",
         icons: [
           {
@@ -30,8 +30,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-96738144-3",
-        // Setting this parameter is optional (requried for some countries such as Germany)
         anonymize: true
       }
     },

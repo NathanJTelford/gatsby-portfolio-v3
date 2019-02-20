@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "gatsby-link";
 
 import {
   Sides,
@@ -13,11 +12,6 @@ import What from "../components/What";
 import DevStack from "../components/DevStack";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
-import SideProjects from "../components/SideProjects";
-import Blogs from "../components/Blogs";
-import OpenSourceCommits from "../components/OpenSourceCommits";
-import Libraries from "../components/Libraries";
-import Interesting from "../components/Interesting";
 
 const IndexPage = () => (
   <div>
@@ -31,11 +25,6 @@ const IndexPage = () => (
         <DevStack />
         <Technologies />
         <Projects />
-        <OpenSourceCommits />
-        <SideProjects />
-        <Blogs />
-        <Libraries />
-        <Interesting />
       </RightSideHome>
     </Sides>
   </div>

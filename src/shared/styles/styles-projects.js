@@ -28,11 +28,11 @@ export const Title = styled.div`
     height: 25px;
     border-radius: 100%;
     color: white;
-    background-color: #66dbff;
+    background-color: #497494;
     position: absolute;
     left: -90px;
     top: 0px;
-    border: 5px solid #69359c;
+    border: 5px solid #2E4053;
 
     ${media.phoneM`
         left: -45px;
@@ -57,11 +57,11 @@ export const Point = styled.p`
     height: 15px;
     border-radius: 100%;
     color: white;
-    background-color: white;
+    background-color: #497494;
     position: absolute;
     left: -85px;
     top: 4px;
-    border: 4px solid #69359c;
+    border: 4px solid #2E4053;
     ${media.phoneM`
         left: -40px;
     `};
@@ -74,9 +74,9 @@ export const GithubUnderlinedLink = styled.a`
   ${props =>
     props.href &&
     `
-      border-bottom: 0px rgba(255, 255, 255, 0.7);
+      border-bottom: #497494;
     `} padding-bottom: 1px;
   &:hover {
-    color: #bd93d8;
+    color: #497494;
   }
 `;

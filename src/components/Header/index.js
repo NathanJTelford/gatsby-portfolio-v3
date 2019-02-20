@@ -12,9 +12,10 @@ const Header = () => (
           about
         </Link>
         &nbsp;/&nbsp;
-        <a href={links.medium} target="_blank" rel="noopener">
+          <Link to='/contact' className={styles.headerLinkStyle}>
           Projects
-        </a>
+          </Link>
+       
       </h2>
     </div>
   </div>

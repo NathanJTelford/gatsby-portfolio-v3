@@ -79,7 +79,7 @@ export const SectionTitle = styled.h3`
     position: absolute;
     left: -90px;
     top: 7px;
-    border: 5px solid #69359c;
+    border: 5px solid #2E4053;
 
     ${media.phoneM`
         left: -45px;
@@ -115,7 +115,7 @@ export const UnderlinedLink = styled.a`
       border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
     `} padding-bottom: 1px;
   &:hover {
-    color: #bd93d8;
+    color: #4C7494;
   }
 `;
 

@@ -10,9 +10,14 @@ import { what } from "../../data/about";
 const What = () => {
   return (
     <Section id="what">
-      <SectionTitle>What Am I Upto?</SectionTitle>
+      <SectionTitle>Always Learning</SectionTitle>
       <UnorderedList>
-        {what.map(item => <ListItem key={item.title}>{item.title}</ListItem>)}
+        <h1>My Current Learning Projects Include</h1>
+        <ul>
+          <li>sharpening Javascript Skills</li>
+          <li>learning React Native</li>
+          <li>Gatsby</li>
+        </ul>
       </UnorderedList>
     </Section>
   );
