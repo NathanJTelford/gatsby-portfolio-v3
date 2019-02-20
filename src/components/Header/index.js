@@ -13,7 +13,7 @@ const Header = () => (
         </Link>
         &nbsp;/&nbsp;
         <a href={links.medium} target="_blank" rel="noopener">
-          blog
+          Projects
         </a>
       </h2>
     </div>
