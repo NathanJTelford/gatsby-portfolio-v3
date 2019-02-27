@@ -1,0 +1,33 @@
+.socialLinks a {
+    color: white;
+  }
+  
+  .socialLinks a:hover {
+    color: #4c7494;
+  }
+  
+  .socialLinks ul {
+    margin: 15px 45px 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  
+    font-size: 30px;
+    list-style-type: none;
+  }
+  
+  .socialLinks li {
+    margin: 0 5rem;
+    border-bottom:  1px solid rgb(88, 114, 143)
+  }
+
+  .email-phone{
+    display: flex;
+    height: 50vh;
+    margin-top: 5rem;
+  }
+
+.contact{
+  margin-left: 20.5vw;
+
+}

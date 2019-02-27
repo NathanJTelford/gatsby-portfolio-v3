@@ -5,7 +5,7 @@ import {
   UnorderedList,
   ListItem
 } from "../../shared/styles/styled-components";
-import { what } from "../../data/about";
+// import { what } from "../../data/about";
 
 const What = () => {
   return (

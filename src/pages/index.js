@@ -1,33 +1,26 @@
 import React from "react";
+import Avatar from '../components/Avatar/index';
+import '../shared/styles/landing.css'
 
-import {
-  Sides,
-  LeftSide,
-  RightSideHome
-} from "../shared/styles/styled-components";
 
-import Info from "../components/Info";
-import Who from "../components/Who";
-import What from "../components/What";
-import DevStack from "../components/DevStack";
-import Technologies from "../components/Technologies";
-import Projects from "../components/Projects";
 
 const IndexPage = () => (
-  <div>
-    <Sides>
-      <LeftSide>
-        <Info />
-      </LeftSide>
-      <RightSideHome>
-        <Who />
-        <What />
-        <DevStack />
-        <Technologies />
-        <Projects />
-      </RightSideHome>
-    </Sides>
+  <div className='landing'>
+      <div className='pic'>
+      <div className='text'>
+        <h1>Nathan J. Telford</h1>
+        <h2>Full Stack Developer</h2>
+      </div>
+      <Avatar />
+
+
+      <p>"In thoroughness is satisfaction"</p>
+
+
+      </div>
+     
   </div>
-);
+ 
+)
 
 export default IndexPage;

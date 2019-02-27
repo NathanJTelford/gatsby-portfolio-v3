@@ -8,14 +8,13 @@ const Header = () => (
   <div className={styles.headerContainer}>
     <div className={styles.headerMaxWidthContainer}>
       <h2 className={styles.headerH1}>
-        <Link to="/" className={styles.headerLinkStyle}>
-          about
+        <Link to="/about" className={styles.headerLinkStyle}>
+          About
         </Link>
-        &nbsp;/&nbsp;
+        &nbsp;|&nbsp;
           <Link to='/contact' className={styles.headerLinkStyle}>
-          Projects
+          Contact
           </Link>
-       
       </h2>
     </div>
   </div>
