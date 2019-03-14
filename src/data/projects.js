@@ -1,3 +1,4 @@
+
 export const projects = [
  
   {
@@ -11,7 +12,7 @@ export const projects = [
     github: {
       name: "Github",
       githubHref: "https://github.com/NathanJTelford/Portfolio-Personal-Project"
-    }
+    },
   },
 
   {

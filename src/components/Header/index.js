@@ -15,6 +15,10 @@ const Header = () => (
           <Link to='/contact' className={styles.headerLinkStyle}>
           Contact
           </Link>
+          &nbsp;|&nbsp;
+          <Link to='/projects' className={styles.headerLinkStyle}>
+          Projects
+          </Link>
       </h2>
     </div>
   </div>

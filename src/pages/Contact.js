@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaTwitter, FaGithub, FaLinkedin, FaPhone } from "react-icons/lib/fa";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/lib/fa";
 import "../shared/styles/links.css"
 
 
@@ -14,7 +14,6 @@ export default class Contact extends React.Component {
         <div>
           <ul>
             <li>
-              <h3>GitHub</h3>
               <a href="https://github.com/NathanJTelford?tab=repositories" >
                 <FaGithub />
               </a>
@@ -22,13 +21,11 @@ export default class Contact extends React.Component {
 
             </li>
             <li>
-              <h3>Twitter</h3>
               <a href="https://twitter.com/?lang=en">
                 <FaTwitter />
               </a>
             </li>
             <li>
-              <h3>linkedin</h3>
               <a href='https://www.linkedin.com/in/nathanjtelford/'>
                 <FaLinkedin />
               </a>
@@ -38,14 +35,12 @@ export default class Contact extends React.Component {
               <h3>Email:</h3>
               <p>nathan.j.i.telford@gmail.com</p>
               <a href="mailto:nathan.j.i.telford@gmail.com">
-                <FaEnvelope />
               </a>
             </li>
             <li>
               <h3>Phone:</h3>
               <p>(385)-236-9850</p>
               <a href='tel:+13852369850' >
-                <FaPhone />
               </a>
             </li>
               </div>

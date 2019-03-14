@@ -14,8 +14,8 @@ const What = () => {
       <UnorderedList>
         <h1>My Current Learning Projects Include</h1>
         <ul>
-          <li>sharpening Javascript Skills</li>
-          <li>learning React Native</li>
+          <li>Sharpening Javascript Skills</li>
+          <li>Learning React Native</li>
           <li>Gatsby</li>
         </ul>
       </UnorderedList>
