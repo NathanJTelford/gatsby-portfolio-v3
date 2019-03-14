@@ -9,4 +9,9 @@ body {
   margin: 0px;
   background-color: #2E4053;
   color: white;
+ 
+}
+
+.project_pics{
+  text-align: center;
 }

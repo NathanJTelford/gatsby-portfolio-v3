@@ -4,18 +4,20 @@ import storeSearch from '../pics/Screenshot (4).png'
 import makeList from '../pics/Screenshot (5).png'
 import calc from '../pics/Screenshot (6).png'
 import dashboard from '../pics/Screenshot (7).png'
-// import edit from '../pics/Edit.jpeg'
+import edit from '../pics/Edit.jpg'
+import home from '../pics/Home.png'
+import login from '../pics/login.png'
+import sb from '../pics/Scoreboard.png'
 
-const Projects = () => {
-    return (
-        <div style={{ height: "100vh" }}>
-            <h1> <a href='' style={{ color: "#497494" }}>  Budget Butler at a glance </a></h1>
+const Projects = () => (
+        <div style={{ height: "100vh"}}>
+            <h1> <a href='' style={{ color: "#497494" }} href='https://mybudgetbutler.net/#/'>  Budget Butler at a glance </a></h1>
             <p>Here's a look at my first collaborative project called Budget Butler. the app was built to help a user create a shopping list with current prices, calculate the total with ease, and never have to worry about forgetting the list. We used React's library for a streamlined dynamic app. Drag and Drop was implemented to create an easy way of reorganizing the lists.
 the app makes calls to APIs to access prices and other info needed for a grocery list. we then use javascript to calculate the total price for the user, and twilio to send a text with the list after they finish building the list. MaterialUi was used to style most of the application.
 <span>check out the live site here: <a style={{ color: "black" }} href='https://mybudgetbutler.net/#/'>Budget Butler</a> </span>
                 <span>  <a style={{ color: "black" }} href='GitHub code: https://github.com/groupprojectalpha/foodie'>Github</a></span>
             </p>
-            <div>
+            <div className='project_pics' >
                 <img style={{width:"14rem", height:"12rem", margin: "1rem"}} src={homePic} />
                 <img style={{width:"14rem", height:"12rem", margin: "1rem"}} src={storeSearch} />
                 <img style={{width:"14rem", height:"12rem", margin: "1rem"}} src={makeList} />
@@ -29,14 +31,15 @@ the app makes calls to APIs to access prices and other info needed for a grocery
 <span>check out the live site here: <a style={{ color: "black" }} href='https://telfordtechnologies.com'>SportsTrack</a> </span>
                 <span>  <a style={{ color: "black" }} href='https://github.com/NathanJTelford/Portfolio-Personal-Project'>Github</a></span>
             </p>
-            <div>
-                <img src='Home.png' />
-                <img src='login.png' />
-                <img src='../Edit.jpg' />
+            <div className='project_pics'>
+                <img style={{width:"16rem", height:"28rem", margin: "1rem"}} src={home} />
+                <img style={{width:"16rem", height:"28rem", margin: "1rem"}} src={login} />
+                <img style={{width:"16rem", height:"28rem", margin: "1rem"}} src={edit} />
+                <img style={{width:"16rem", height:"28rem", margin: "1rem"}} src={sb} />
             </div>
         </div>
-    )
-}
+
+)
 
 
 export default Projects;
