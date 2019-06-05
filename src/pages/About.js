@@ -20,10 +20,10 @@ import {
 		  <Info />
 		</LeftSide>
 		<RightSideHome>
+		  <Projects />
+		  <DevStack />
 		  <Who />
 		  <What />
-		  <DevStack />
-		  <Projects />
 		</RightSideHome>
 	  </Sides>
 	</div>
